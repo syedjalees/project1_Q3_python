@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment & Dependency Files
+.env
+*.lock
+
+# Jupyter Notebook Cache & Checkpoints
+.ipynb_checkpoints/
+
+# OS & Editor-Specific Files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+.vscode/   # VSCode settings
+.idea/     # JetBrains (PyCharm)
