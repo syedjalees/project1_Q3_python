@@ -5,9 +5,11 @@ import datetime as dt  # Import datetime for handling date and time
 import urllib  # Import urllib for URL handling
 import json  # Import json for handling JSON data
 import time  # Import time for time-related functions
-from helpers import *  # Import custom helper functions
+# from project1.helpers import *  # Import custom helper functions
 import folium  # Import folium for creating interactive maps
 from streamlit_folium import folium_static  # Import folium_static to render Folium maps in Streamlit
+from src.project1.helpers import *
+
 
 # Example URL to fetch bike share data (replace with the actual URL from the resource_urls list)
 station_url = 'https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_status.json'  
